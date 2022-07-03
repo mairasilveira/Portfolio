@@ -1,0 +1,97 @@
+@import url('https://fonts.googleapis.com/css2?family=Chango&family=Monoton&family=Patua+One&family=Righteous&family=Sarala&family=Satisfy&display=swap');
+
+:root {
+    --primary: #C4A69D;
+    --header: #98A886;
+    --background: #465C69;
+    --text: #363457;
+}
+
+* {
+    text-decoration: none;
+}
+
+.header {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+    background-color: var(--header);
+    height: 55px;
+}
+
+.header-image {
+    height: 24px;
+}
+
+.header-item {
+    padding: 0px 10px;
+    text-decoration: none;
+    font-size: 1.2rem;
+    font-weight: 550;
+    color: var(--text);
+}
+
+.header-item:hover {
+    border-bottom: 5px solid var(--text);
+    transition: 0.3s;
+}
+
+body {
+    font-family: 'Sarala', sans-serif;
+    }
+
+main {
+    max-width: 80%;
+    margin: auto;
+}
+
+.title {
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 1.5rem;
+    color: var(--text);
+}
+
+/* .arrow-div {
+    height: 60px;
+    display: flex;
+    align-items: center;
+}
+
+.arrow-image {
+    height: 30px;
+} */
+
+.project {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: wrap;
+    justify-content: space-around;
+}
+
+.project-card {
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-start;
+    align-items: center;
+    padding: 2rem;
+}
+
+.project-card:hover {
+    transform: scale(1.1);
+    transition-property: all;
+    transition-duration: 0.3s;
+    transition-timing-function: ease;
+    transition-delay: 0s;
+}
+
+.project-card>img {
+    height: 250px;
+    width: 350px;
+    object-fit: cover;
+}
+
+.project-card>h3 {
+    color: var(--text);
+}
