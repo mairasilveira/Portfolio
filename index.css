@@ -2,9 +2,9 @@
 
 :root {
   --primary: #c4a69d;
-  --header: #98a886;
-  --background: #465c69;
-  --text: #363457;
+  --header: #DDA8A8;
+  --background: #F6DFD7;
+  --text: #3F2020;
 }
 
 * {
@@ -17,17 +17,17 @@
   justify-content: space-around;
   align-items: center;
   background-color: var(--header);
-  height: 55px;
+  height: 100px;
 }
 
 .header-image {
-  height: 24px;
+  height: 70px;
 }
 
 .header-item {
   padding: 0px 10px;
   text-decoration: none;
-  font-size: 1.2rem;
+  font-size: 1.4rem;
   font-weight: 550;
   color: var(--text);
 }
@@ -39,6 +39,8 @@
 
 body {
   font-family: 'Sarala', sans-serif;
+  background-color: var(--background);
+  background-image: url("./source/11.jpg");
 }
 
 main {
@@ -131,4 +133,8 @@ main {
 
 .about {
     color: var(--text);
+}
+
+span {
+  color: var(--text);
 }
